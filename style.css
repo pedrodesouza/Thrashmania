@@ -1,0 +1,75 @@
+@font-face {
+    font-family: thrash;
+    src: url(fontes/EvilEmpire-4BBVK.ttf);
+}
+
+body {
+    background-image: url(https://addons-media.operacdn.com/media/CACHE/images/themes/25/80525/1.0-rev1/images/6a16aee8-f0b5-4cd4-aa39-f01bea2a4903/4688c3626ce7e695375cbebc4e14ba59.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+.Titulo {
+    text-align: center;
+    font-family: thrash, serif;
+    color: red;
+}
+
+nav a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    text-decoration: none;
+    color: brown;
+    background-color: rgb(0, 0, 0);
+    border-style: double;
+    margin: 10px 0px 10px 10px;
+}
+
+nav a:visited {
+    background-color: red;
+    color: black;
+}
+
+nav a:hover{
+    background-color: brown;
+    color: black;
+    letter-spacing: 2px;
+}
+
+#caveira {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#Titulo2 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: double;
+    border: 3px dotted;
+}
+
+.texto {
+    font-size: 25px;
+    text-align: center;
+    max-width: 800px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto
+}
+
+ul {
+    list-style-image: url("imagens/thrash-metal.jpg");
+    padding-left: 100px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 1.0em;
+    padding: 1px;
+}
